@@ -9,6 +9,7 @@ public class Gato {
 	private Integer idade;
 	
 	public Gato(String nome, String cor, Integer idade) {		
+		super();
 		this.nome = nome;
 		this.cor = cor;
 		this.idade = idade;
